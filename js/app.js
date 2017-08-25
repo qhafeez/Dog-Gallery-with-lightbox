@@ -23,11 +23,12 @@ $imgCont.append($caption);
 $slide.append($imgCont);
 $slide.append($leftButton);
 $slide.append($rightButton);
+$slide.append($Xbutton);
 
 $overlayContent.append($slide);
 
 
-$overlay.append($Xbutton);
+
 $overlay.append($overlayContent);
 
 $('body').append($overlay);
@@ -75,19 +76,19 @@ $('body').append($overlay);
 
       //update overlay
       updateImage(newImageLocation, newImageCaption);
-      if(!left){
-        $imgCont.css("right", -350)
-        $imgCont.hide().animate({
-          display: "block",
-          right: 0,
-        }, 1000);
-      } else {
-          $imgCont.css("right", 350)
-        $imgCont.hide().animate({
-          display: "block",
-          right: 0,
-        }, 1000);
-      } 
+      // if(!left){
+      //   $imgCont.css("right", -350)
+      //   $imgCont.hide().animate({
+      //     display: "block",
+      //     right: 0,
+      //   }, 1000);
+      // } else {
+      //     $imgCont.css("right", 350)
+      //   $imgCont.hide().animate({
+      //     display: "block",
+      //     right: 0,
+      //   }, 1000);
+      // } 
 
 
   }

@@ -93,6 +93,13 @@ input{
 	height:350px;
 }
 
+@media screen and (min-width:800px){
+	.slide{
+		margin-top: 100px;
+		width:500px;
+	}
+}
+
 .imgCont{
 	
 	position:absolute;
@@ -141,6 +148,7 @@ input{
 	top:0;
 	right:0;
 	font-size:30px;
+	background-color: rgba(0,0,0, 0.6);
 }
 
 
