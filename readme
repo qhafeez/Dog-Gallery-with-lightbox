@@ -1,0 +1,4 @@
+This is a gallery of dogs. Originally this was a treehouse project and was
+simply a gallery with a lightbox. I added the search feature.
+ When you type in a breed name, only the breeds that match the search term
+ will show.  The rest's display will be set to "none". 
